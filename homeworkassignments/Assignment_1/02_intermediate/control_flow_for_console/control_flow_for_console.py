@@ -1,3 +1,5 @@
+# program that tells whether the computer's number is higher or lower than the choice entered by the user
+
 import random
 
 NUM_ROUNDS = 5
@@ -52,7 +54,7 @@ def main():
 
 if __name__ == "__main__":
     main()
-Solution (with extensions):
+# Solution (with extensions):
 import random
 
 NUM_ROUNDS = 5
