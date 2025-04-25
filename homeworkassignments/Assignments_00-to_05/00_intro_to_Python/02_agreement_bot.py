@@ -8,7 +8,7 @@
 #My favorite animal is also cow!
 
 def main():
-    print("Delete this line and write your code here! :)")
+    print("This is a program which asks the users about their favourite animal! :)")
 
 
 # This provided line is required at the end of
