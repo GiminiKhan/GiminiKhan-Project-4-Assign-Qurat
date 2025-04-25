@@ -42,7 +42,7 @@ def main():
             top_y = row * CELL_SIZE
             right_x = left_x + CELL_SIZE
             bottom_y = top_y + CELL_SIZE
-            canvas.create_rectangle(left_x, top_y, right_x, bottom_y, 'blue')
+            canvas.create_rectangle(left_x, top_y, right_x, bottom_y, fill='blue')
 
     canvas.wait_for_click()
 
@@ -54,7 +54,7 @@ def main():
         last_click_y,
         last_click_x + ERASER_SIZE,
         last_click_y + ERASER_SIZE,
-        'pink'
+        fill='pink'
     )
 
     # Continuously move the eraser with the mouse and erase blue cells
