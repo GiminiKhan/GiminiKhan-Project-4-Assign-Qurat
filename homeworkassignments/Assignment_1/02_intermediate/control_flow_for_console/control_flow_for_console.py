@@ -1,4 +1,4 @@
-# program that tells whether the computer's number is higher or lower than the choice entered by the user
+# program that tells whether the computer's number is higher or lower than the user's number
 
 import random
 
