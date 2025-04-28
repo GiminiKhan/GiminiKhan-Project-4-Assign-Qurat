@@ -1,6 +1,6 @@
-# main.py
+# 03_erase_canvas.py
 
-from graphics import Canvas  # Ensure you're importing Canvas from graphics.py
+from graphics import Canvas
 import time
 
 CANVAS_WIDTH: int = 400
@@ -64,4 +64,3 @@ def main():
 # Required entry point
 if __name__ == '__main__':
     main()
-
